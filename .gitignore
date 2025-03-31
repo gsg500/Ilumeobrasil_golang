@@ -1,0 +1,22 @@
+# Ignora pasta da IDE GoLand/IntelliJ
+.idea/
+
+# Arquivos de dependência
+go.sum
+
+# Arquivos e diretórios de build
+/app
+/main
+*.exe
+*.out
+*.test
+
+# Docker artefatos temporários
+*.log
+docker-compose.override.yml
+
+# Variáveis de ambiente
+.env
+
+# Cache do Go
+/go/pkg/
